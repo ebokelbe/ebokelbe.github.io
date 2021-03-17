@@ -13,6 +13,7 @@ p{
 /* nav/header styling */
 body{
     display: grid;
+    background-color: lightgray;
     grid-template-columns: 20% 60%;
     column-gap: 20%;
     grid-template-areas: "header nav"
@@ -21,7 +22,6 @@ body{
 }
 header{
     grid-area: header;
-    background-color: slategray;
 }
 header h1{
     font-family: Papyrus;
@@ -41,20 +41,20 @@ nav a{
     justify-content: center;
     align-items: center;
     border-left: solid thin black;
-    background-color: slategray;
+    background-color: lightgray;
     transition: background-color 1s;
     text-decoration: none;
     text-shadow:
-   -1px -1px 0 white,  
-    1px -1px 0 white,
-    -1px 1px 0 white,
-     1px 1px 0 white;
+   -1px -1px 0 black,  
+    1px -1px 0 black,
+    -1px 1px 0 black,
+     1px 1px 0 black;
 }
 nav a:first-child{
     border-left: none;
 }
 nav a:hover{
-    background-color: lightgrey;
+    background-color: white;
 }
 main{
     grid-area: main;
