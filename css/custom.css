@@ -21,6 +21,7 @@ body{
 }
 header{
     grid-area: header;
+    background-color: slategray;
 }
 header h1{
     font-family: Papyrus;
@@ -32,6 +33,7 @@ nav{
 }
 nav a{
     text-align: center;
+    color: black;
     font-size: 16pt;
     font-family: Papyrus;
     height: 100%;
@@ -39,6 +41,7 @@ nav a{
     justify-content: center;
     align-items: center;
     border-left: solid thin black;
+    background-color: slategray;
     transition: background-color 1s;
     text-decoration: none;
     text-shadow:
