@@ -1,0 +1,99 @@
+/* style for all pages */
+section > p{
+    text-indent: 3em;
+}
+h2{
+    font-family: Papyrus;
+}
+p{
+    font-size: 16pt;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 80ch;
+}
+/* nav/header styling */
+body{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 20% 60%;
+    column-gap: 20%;
+    grid-template-areas: "header nav"
+    "main main"
+    "footer footer";
+}
+header{
+    grid-area: header;
+}
+header h1{
+    color: goldenrod;
+    font-family: Papyrus;
+}
+nav{
+    grid-area: nav;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+nav a{
+    text-align: center;
+    background-color: black;
+    color: goldenrod;
+    font-size: 16pt;
+    font-family: Papyrus;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: solid thin silver;
+    transition: background-color 1s;
+    text-decoration: none;
+    text-shadow:
+   -1px -1px 0 black,  
+    1px -1px 0 black,
+    -1px 1px 0 black,
+     1px 1px 0 black;
+}
+nav a:first-child{
+    border-left: none;
+}
+nav a:hover{
+    background-color: lightgrey;
+}
+main{
+    grid-area: main;
+}
+/* title background for all pages */
+.title-card{
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+.title-card h1{
+    width: 30%;
+    display: block;
+    margin: auto;
+    padding: 12.33%;
+    text-shadow:
+   -1px -1px 0 black,  
+    1px -1px 0 black,
+    -1px 1px 0 black,
+     1px 1px 0 black;
+    text-align: center;
+    font-size: 50pt;
+    font-family: harrington;
+    color: goldenrod;
+    
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 95%;
+    margin: auto;
+}
+#grid-left, #grid-right{
+    background-color: tan;
+    width: 90%;
+    margin: auto;
+    margin-top: 2%;
+    padding: 2%;
+    border: solid goldenrod;
+}
