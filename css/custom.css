@@ -12,7 +12,7 @@ p{
 }
 /* nav/header styling */
 body{
-    background-color: black;
+    background-color: darkblue;
     display: grid;
     grid-template-columns: 20% 60%;
     column-gap: 20%;
@@ -34,7 +34,7 @@ nav{
 }
 nav a{
     text-align: center;
-    background-color: black;
+    background-color: darkblue;
     color: goldenrod;
     font-size: 16pt;
     font-family: Papyrus;
@@ -80,7 +80,7 @@ main{
     text-align: center;
     font-size: 50pt;
     font-family: harrington;
-    color: goldenrod;
+    color: white;
     
 }
 .grid-container{
