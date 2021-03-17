@@ -12,7 +12,6 @@ p{
 }
 /* nav/header styling */
 body{
-    background-color: darkblue;
     display: grid;
     grid-template-columns: 20% 60%;
     column-gap: 20%;
@@ -24,7 +23,6 @@ header{
     grid-area: header;
 }
 header h1{
-    color: goldenrod;
     font-family: Papyrus;
 }
 nav{
@@ -34,22 +32,20 @@ nav{
 }
 nav a{
     text-align: center;
-    background-color: darkblue;
-    color: goldenrod;
     font-size: 16pt;
     font-family: Papyrus;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-left: solid thin silver;
+    border-left: solid thin black;
     transition: background-color 1s;
     text-decoration: none;
     text-shadow:
-   -1px -1px 0 black,  
-    1px -1px 0 black,
-    -1px 1px 0 black,
-     1px 1px 0 black;
+   -1px -1px 0 white,  
+    1px -1px 0 white,
+    -1px 1px 0 white,
+     1px 1px 0 white;
 }
 nav a:first-child{
     border-left: none;
@@ -96,4 +92,7 @@ main{
     margin-top: 2%;
     padding: 2%;
     border: solid goldenrod;
+}
+footer{
+    text-align: center;
 }
