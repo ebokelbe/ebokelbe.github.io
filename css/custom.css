@@ -96,6 +96,12 @@ main{
     padding: 2%;
     border: solid goldenrod;
 }
+.portfolio-container{
+    width: 95%;
+}
+#about-me, #projects, #skills{
+    width: 95%;
+}
 footer p{
     text-align: center;
 }
