@@ -103,8 +103,12 @@ main{
     width: 85%;
     margin: auto;
 }
-footer p{
+footer{
+    grid-area: footer;
     text-align: center;
+}
+footer p{
+    max-width: none;
 }
 .project-name h3{
     display: inline;
@@ -127,4 +131,5 @@ footer p{
 #about-me{
     background-color: white;
     border: solid black;
+    padding: 2em;
 }
