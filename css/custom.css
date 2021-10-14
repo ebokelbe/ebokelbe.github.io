@@ -108,6 +108,7 @@ main{
     background-color: white;
     border: solid black;
     padding: 2em;
+    margin-top: 5%;
 }
 footer{
     grid-area: footer;
@@ -132,7 +133,4 @@ footer p{
     width: 70%;
     border-radius: 5%;
     border: solid black;
-}
-#about-me{
-    margin-top: 5%;
 }
