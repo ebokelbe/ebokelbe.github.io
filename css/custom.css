@@ -22,18 +22,22 @@ body{
 }
 header{
     grid-area: header;
+
 }
 header h1{
     font-family: Papyrus;
+    text-align: center;
 }
 nav{
     grid-area: nav;
     display: grid;
     grid-template-columns: auto auto auto;
+    border-bottom: solid thin black;
+    border-right: solid thin black;
 }
 nav a{
     text-align: center;
-    color: white;
+    color: black;
     font-size: 16pt;
     font-family: Papyrus;
     height: 100%;
@@ -44,14 +48,13 @@ nav a{
     background-color: lightgray;
     transition: background-color 1s;
     text-decoration: none;
-    text-shadow:
-   -1px -1px 0 black,  
-    1px -1px 0 black,
-    -1px 1px 0 black,
-     1px 1px 0 black;
+    font-weight: bold;
 }
 nav a:first-child{
     border-left: none;
+}
+#portfolio nav a:first-child{
+    border-left: solid thin black;
 }
 nav a:hover{
     background-color: white;
@@ -102,6 +105,9 @@ main{
 #about-me, #projects, #skills{
     width: 85%;
     margin: auto;
+    background-color: white;
+    border: solid black;
+    padding: 2em;
 }
 footer{
     grid-area: footer;
@@ -112,9 +118,6 @@ footer p{
 }
 .project-name h3{
     display: inline;
-}
-#skills{
-    padding: 2% 35%;
 }
 #about-grid{
     display: grid;
@@ -127,9 +130,9 @@ footer p{
 #about-grid img{
     grid-area: image;
     width: 70%;
+    border-radius: 5%;
+    border: solid black;
 }
 #about-me{
-    background-color: white;
-    border: solid black;
-    padding: 2em;
+    margin-top: 5%;
 }
