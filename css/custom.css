@@ -100,7 +100,8 @@ main{
     width: 95%;
 }
 #about-me, #projects, #skills{
-    width: 95%;
+    width: 85%;
+    margin: auto;
 }
 footer p{
     text-align: center;
@@ -121,4 +122,9 @@ footer p{
 }
 #about-grid img{
     grid-area: image;
+    width: 70%;
+}
+#about-me{
+    background-color: white;
+    border: solid black;
 }
