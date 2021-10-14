@@ -105,3 +105,20 @@ main{
 footer p{
     text-align: center;
 }
+.project-name h3{
+    display: inline;
+}
+#skills{
+    padding: 2% 35%;
+}
+#about-grid{
+    display: grid;
+    grid-template-areas: "text image";
+    grid-template-columns: 75% 25%;
+}
+#about-text{
+    grid-area: text;
+}
+#about-grid img{
+    grid-area: image;
+}
