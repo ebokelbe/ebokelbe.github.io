@@ -134,3 +134,12 @@ footer p{
     border-radius: 5%;
     border: solid black;
 }
+#contact-link{
+    border: solid thin black;
+    padding: 0.5em;
+    font-size: 2rem;
+    background-color: lightgray;
+    border-radius: 6%;
+    text-decoration: none;
+    color: black;
+}
