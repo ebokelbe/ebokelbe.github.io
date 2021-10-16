@@ -146,3 +146,14 @@ footer p{
 #contact-link:hover{
     background-color: white;
 }
+#contact-container{
+    width: 95%;
+}
+#contact-content{
+    width: 85%;
+margin: auto;
+background-color: white;
+border: solid black;
+padding: 2em;
+margin-top: 5%;
+}
