@@ -142,6 +142,7 @@ footer p{
     border-radius: 6%;
     text-decoration: none;
     color: black;
+    transition: background-color 1s;
 }
 #contact-link:hover{
     background-color: white;
