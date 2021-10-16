@@ -143,3 +143,6 @@ footer p{
     text-decoration: none;
     color: black;
 }
+#contact-link:hover{
+    background-color: white;
+}
