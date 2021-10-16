@@ -157,3 +157,7 @@ border: solid black;
 padding: 2em;
 margin-top: 5%;
 }
+#contact-links img{
+    max-width: 64px;
+    margin: 1em;
+}
